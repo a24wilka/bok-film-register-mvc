@@ -47,4 +47,20 @@ Syftet med projektet är att visa förståelse för:
 * SQL (procedurer, vyer, triggers)
 * Koppling mellan backend (PHP) och databas
 
+## 📸 Screenshots
+
+### Dashboard
+![Dashboard](assets/images/Dashboard.png)
+
+### Böcker
+![Böcker](assets/images/Böcker.png)
+
+### Lägg till bok
+![Lägg till bok](assets/images/LäggTillBok.png)
+
+### Lägg till film
+![Lägg till film](assets/images/LäggTillFilm.png)
+
+### Lägg till författare
+![Lägg till författare](assets/images/LäggTillFörfattare.png)
 ---
