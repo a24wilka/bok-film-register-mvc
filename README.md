@@ -47,10 +47,9 @@ Syftet med projektet är att visa förståelse för:
 * SQL (procedurer, vyer, triggers)
 * Koppling mellan backend (PHP) och databas
 
-### Dashboard
+### ### Dashboard (Bok & Film)
 ![Dashboard](assets/images/Dashboard.png)
 
-### Dashboard (Bok & Film)
 ![Dashboard 2](assets/images/dashboard-2.png)
 
 ### Böcker
