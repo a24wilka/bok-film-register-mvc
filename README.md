@@ -53,7 +53,7 @@ Syftet med projektet är att visa förståelse för:
 ![Dashboard](assets/images/Dashboard.png)
 
 ### Dashboard (Bok & Film)
-(assets/images/dashboard-2.png)
+![Dashboard 2](assets/images/dashboard-2.png)
 
 ### Böcker
 ![Böcker](assets/images/books.png)
