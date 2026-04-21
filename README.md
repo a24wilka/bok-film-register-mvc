@@ -49,8 +49,17 @@ Syftet med projektet är att visa förståelse för:
 
 ## 📸 Screenshots
 
+### Dashboard
+![Dashboard](assets/images/Dashboard.png)
+
+### Dashboard (Bok & Film)
+![Dashboard 2](assets/images/dashboard-2.png)
+
 ### Böcker
 ![Böcker](assets/images/books.png)
+
+### Filmer
+![Filmer](assets/images/movies.png)
 
 ### Lägg till bok
 ![Lägg till bok](assets/images/create-book.png)
