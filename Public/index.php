@@ -52,4 +52,12 @@ switch ($action) {
     default:
         $controller->index();
         break;
+
+    case 'archived':
+         $controller->archived();
+         break;
+
+    case 'deleteArchived':
+         $controller->deleteArchived();
+         break;
 }

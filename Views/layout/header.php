@@ -16,6 +16,13 @@
     <a href="index.php?action=create_author">➕ Författare</a>
     <a href="index.php?action=create">➕ Bok</a>
     <a href="index.php?action=create_movie">➕ Film</a>
+    <a href="index.php?action=archived" class="btn">
+        📦 Visa arkiv
+    </a>
 </nav>
     </header>
     <main class="container">
+
+
+
+    

@@ -1,3 +1,4 @@
+
 <h2>Dashboard</h2>
 <p class="page-intro">Här visas böcker och deras kopplade filmer i en gemensam översikt.</p>
 

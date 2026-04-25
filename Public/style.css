@@ -344,3 +344,13 @@ tbody tr:hover {
         grid-template-columns: 1fr;
     }
 }
+
+.archive-grid {
+    display: flex;
+    justify-content: center;
+}
+
+.archive-grid .book-card {
+    max-width: 400px;
+    width: 100%;
+}

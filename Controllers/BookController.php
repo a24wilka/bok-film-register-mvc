@@ -134,4 +134,25 @@ public function storeAuthor()
     exit;
 }
 
+public function archived()
+{
+    $model = new BookModel();
+    $books = $model->getArchivedBooks();
+
+    require_once __DIR__ . '/../Views/layout/header.php';
+    require_once __DIR__ . '/../Views/book/archived.php';
+    require_once __DIR__ . '/../Views/layout/footer.php';
+}
+
+public function deleteArchived()
+{
+    if (isset($_GET['id'])) {
+        $model = new BookModel();
+        $model->deleteArchived($_GET['id']);
+    }
+
+    header("Location: index.php?action=archived");
+    exit;
+}
+
 }

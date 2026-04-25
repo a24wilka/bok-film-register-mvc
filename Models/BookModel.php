@@ -140,4 +140,22 @@ public function getBooksWithoutMovies()
     return $stmt->fetchAll(PDO::FETCH_ASSOC);
 }
 
+public function getArchivedBooks()
+{
+    $sql = "SELECT a.*, f.namn AS forfattare
+            FROM ArkiveradeBocker a
+            LEFT JOIN Forfattare f ON a.forfattar_id = f.forfattar_id
+            ORDER BY a.bok_id DESC";
+
+    return $this->db->query($sql)->fetchAll(PDO::FETCH_ASSOC);
+}
+
+public function deleteArchived($id)
+{
+    $sql = "DELETE FROM ArkiveradeBocker WHERE bok_id = :id";
+    $stmt = $this->db->prepare($sql);
+    $stmt->execute([':id' => $id]);
+}
+
+
 }
