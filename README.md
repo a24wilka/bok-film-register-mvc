@@ -122,9 +122,6 @@ http://localhost/Bokhandel_mvc/Public/
 ### 🎬 Filmer
 ![Filmer](assets/images/movies.png)
 
-### 📦 Arkivering & Återställning
-![Arkivering](assets/images/Arkiv.png)
-
 ### ➕ Lägg till bok
 ![Lägg till bok](assets/images/create-book.png)
 
@@ -133,6 +130,9 @@ http://localhost/Bokhandel_mvc/Public/
 
 ### ➕ Lägg till författare
 ![Lägg till författare](assets/images/create-author.png)
+
+### 📦 Arkivering & Återställning
+![Arkivering](assets/images/Arkiv.png)
 
 
 ---
