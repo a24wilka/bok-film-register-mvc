@@ -132,7 +132,7 @@ http://localhost/Bokhandel_mvc/Public/
 ![Lägg till författare](assets/images/create-author.png)
 
 ### 📦 Arkivering & Återställning
-![Arkivering](assets/images/Arkiv.png)
+![Arkivering](assets/images/Arkiv2.png)
 
 
 ---
