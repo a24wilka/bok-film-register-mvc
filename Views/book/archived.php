@@ -42,8 +42,10 @@
                🗑 Ta bort
             </a>
 
-            <a href="index.php?action=books" class="archive-btn">
-               ⬅ Tillbaka
+            <a href="index.php?action=restore&id=<?= $book['bok_id'] ?>"
+                class="archive-btn"
+                onclick="return confirm('Återställ boken?')">
+                ♻ Återställ
             </a>
 
         </div>

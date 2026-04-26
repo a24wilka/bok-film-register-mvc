@@ -155,4 +155,15 @@ public function deleteArchived()
     exit;
 }
 
+public function restore()
+{
+    if (isset($_GET['id'])) {
+        $model = new BookModel();
+        $model->restoreBook($_GET['id']);
+    }
+
+    header("Location: index.php?action=archived");
+    exit;
+}
+
 }

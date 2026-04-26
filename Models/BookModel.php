@@ -157,5 +157,11 @@ public function deleteArchived($id)
     $stmt->execute([':id' => $id]);
 }
 
+public function restoreBook($id)
+{
+    $sql = "CALL AterstallBok(:id)";
+    $stmt = $this->db->prepare($sql);
+    $stmt->execute([':id' => $id]);
+}
 
 }

@@ -60,4 +60,8 @@ switch ($action) {
     case 'deleteArchived':
          $controller->deleteArchived();
          break;
+
+     case 'restore':
+        $controller->restore();
+        break;
 }
