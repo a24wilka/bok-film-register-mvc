@@ -1,51 +1,115 @@
-# 📚 Bok & Film Register
+# 📚 Bok & Film Register (MVC)
 
-Ett MVC-baserat projekt utvecklat inom kursen **Databaskonstruktion**.
-Systemet hanterar böcker, filmer och författare med fokus på databaskopplingar och SQL-funktionalitet.
+Ett fullstack-projekt byggt med **PHP (MVC)** och **MySQL** där fokus ligger på databaskonstruktion, relationer och avancerad SQL.
 
-## 🔧 Funktioner
+Projektet demonstrerar hur en databas integreras med en webbapplikation i en tydlig MVC-struktur.
 
-* Lägg till författare
-* Lägg till böcker (kopplade till författare, förlag och kategori)
-* Lägg till filmer (kopplade till böcker)
-* Visa böcker och filmer
-* Dashboard med kombinerad bok- och filminformation
+---
 
-## 🧠 Databasfokus
+## 🚀 Funktioner
 
-Projektet innehåller flera avancerade databaskoncept:
+* 📚 Hantera böcker (CRUD)
+* 👤 Koppla böcker till författare, förlag och kategorier
+* 🎬 Hantera filmer kopplade till böcker
+* 📦 Arkivera och återställ böcker (Stored Procedures)
+* 📊 Dashboard med kombinerad bok- och filminformation
+* 🗑 Loggning via triggers vid ändringar i databasen
+
+---
+
+## 🧠 Databas & SQL
+
+Projektet innehåller flera viktiga databaskoncept:
 
 * **Relationer (Foreign Keys)** mellan tabeller
-* **Stored Procedures** (t.ex. `LaggTillBok`, `LaggTillFilm`, `FlyttaTillArkiv`)
-* **Views** (t.ex. `Vy_BokInfo`, `Vy_BokFilmInfo`)
-* **Triggers** för loggning av förändringar
-* **Constraints** (UNIQUE, CHECK)
+* **Stored Procedures**
+
+  * `LaggTillBok`
+  * `LaggTillFilm`
+  * `FlyttaTillArkiv`
+  * `AterstallBok`
+* **Views**
+
+  * `Vy_BokInfo`
+  * `Vy_BokFilmInfo`
+* **Triggers**
+
+  * Loggar när böcker läggs till eller tas bort
+* **Constraints**
+
+  * `UNIQUE`, `CHECK`, `NOT NULL`
+
+---
 
 ## 🛠 Tekniker
 
 * PHP (MVC-struktur)
 * MySQL
+* PDO (databaskoppling)
 * HTML / CSS
 
-## 📁 Struktur
+---
 
-* Controllers
-* Models
-* Views
-* Config
+## 📁 Projektstruktur
+
+```
+Config/
+Controllers/
+Models/
+Views/
+Public/
+assets/
+```
+
+---
 
 ## 🎓 Kontext
 
-Projektet är utvecklat som en del av studier vid **Högskolan i Skövde** inom kursen *Databaskonstruktion*.
+Projektet är utvecklat vid **Högskolan i Skövde** inom kursen *Databaskonstruktion*.
 
-## 🚀 Syfte
+---
 
-Syftet med projektet är att visa förståelse för:
+## 🎯 Syfte
+
+Projektet visar praktisk förståelse för:
 
 * Databasdesign
 * Normalisering
 * SQL (procedurer, vyer, triggers)
-* Koppling mellan backend (PHP) och databas
+* Backend-utveckling i PHP
+* MVC-arkitektur
+
+---
+
+## ⚙️ Installation
+
+1. Klona projektet:
+
+```
+git clone https://github.com/a24wilka/bok-film-register-mvc.git
+```
+
+2. Importera databasen i MySQL (via phpMyAdmin eller Workbench)
+
+3. Skapa config-fil:
+
+```
+cp Config/config.example.php Config/config.php
+```
+
+4. Fyll i dina databasuppgifter i:
+
+```
+Config/config.php
+```
+
+5. Starta XAMPP och öppna:
+
+```
+http://localhost/Bokhandel_mvc/Public/
+```
+
+---
 
 ## 📸 Screenshots
 
@@ -67,3 +131,7 @@ Syftet med projektet är att visa förståelse för:
 ### ➕ Lägg till författare
 ![Lägg till författare](assets/images/create-author.png)
 ---
+## 👨‍💻 Författare
+
+**Willis Kabuye**
+GitHub: https://github.com/a24wilka
